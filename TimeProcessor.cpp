@@ -37,13 +37,14 @@ class team{
 };
 
 //------------------------------------------------------------------------------
-//Use statistics magic/bullshit to generate a practical time.
+//Use statistics magic to generate a practical time.
 chron generateTime(chron base){
 	
 }
 
 //------------------------------------------------------------------------------
 int main(){
+	//This is just a test case to check chron works
 	chron newTime = chron(4,12);
 	cout << newTime.min << ":" << newTime.sec;
 	return 0;
