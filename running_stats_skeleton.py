@@ -1,3 +1,5 @@
+from typing import List
+
 class Runner:
     def __init__ (self, first, last, base):
         self.first = first
@@ -8,8 +10,13 @@ class Runner:
         #which is of course nonsense
         self.prac_time = -1
 
-def process_data():
-    data = open("test_data_small.csv")
+def process_data(file: str) -> List[Runner]:
+    """
+    Return a list of runner objects using the data contained in file.
+    
+    Precondition: The file specified by variable file exists and is not empty.
+    """
+    data = open(file)
     race_list = []
     for line in data:
         #Remove endline character from each line
@@ -25,9 +32,13 @@ def process_data():
         #Add the runner's information to the list of runners
         race_list.append(runner)
     return race_list
+
+def generate_practical_time(race_list: List[Runner]) -> List[Runner]:
+    """
+    Return a modified version of race_list with added practical times.
+    """
  
-#Test run just in case something fails      
-start_list = process_data()
+#Test last implemented feature of code  
+start_list = process_data("test_data_small.csv")
 print(start_list)
-#It returns 4 runner objects so it most likely succeeds. Thus, this preliminary
-#skeleton is successful
+#Small set of test data is deemed to be successful
