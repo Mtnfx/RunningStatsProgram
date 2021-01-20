@@ -37,8 +37,20 @@ def generate_practical_time(race_list: List[Runner]) -> List[Runner]:
     """
     Return a modified version of race_list with added practical times.
     """
- 
-#Test last implemented feature of code  
+
+def write_data(race_list: List[Runner], output: str) -> None:
+    """
+    Write the now analyzed data in race_list to the file with name output.
+    """
+    file = open(output, 'w')
+    for runner in race_list:
+        file.write(runner.first + ',' + runner.last + ',' + str(runner.base) +
+                   ',' + str(runner.prac_time) + '\n')
+    
+    
+#Test last implemented feature of code (write_data)
+#All other code was tested successfully and is assumed to be working
 start_list = process_data("test_data_small.csv")
 print(start_list)
-#Small set of test data is deemed to be successful
+write_data(start_list, "test_output.csv")
+#Data write returned expected values. Test deemed successful.
