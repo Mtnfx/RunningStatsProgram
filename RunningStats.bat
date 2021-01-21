@@ -1,0 +1,2 @@
+cd Documents
+running_stats_skeleton.py
