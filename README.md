@@ -11,3 +11,6 @@ The first 50% is placing accuracy. This is calculated by taking the number of pl
 I have relatively strong reasons to believe that this algorithm does not accurately reflect the actual accuracy of the simulation (given that my first prototype with questionable statistical estimation scored a 94% on the first and only trial of it). Thus, I have decided to add in the second half of the accuracy formula.
 
 The second 50% is time accuracy. This is calculated using the percent error formula and subtracting that given value from 100% to get a percent accuracy. The mean of all these accuracy values over the whole field is the timing accuracy. This is new and not tested in my prototype version so I do not have a benchmark accuracy value.
+
+# Recommended Readings
+Most people can probably figure out how my code works based on documentation and syntax. However, I also do a good amount of planning in my Development Journals. I would personally recommend reading Base Assumptions as it gives a foundation as to what you automatically assume about my code.
