@@ -14,3 +14,10 @@ The second 50% is time accuracy. This is calculated using the percent error form
 
 # Recommended Readings
 Most people can probably figure out how my code works based on documentation and syntax. However, I also do a good amount of planning in my Development Journals. I would personally recommend reading Base Assumptions as it gives a foundation as to what you automatically assume about my code.
+
+# A Final Note
+This project has been in the the works on paper for a while and in code for an almost equally long time. I've put this online to hopefully inspire anyone who's like me to delve a bit further into computing and statistics. The project you see here now will most likely continue to evolve as I get better at statistics and computer science (hopefully getting more accurate). That being said, I hope you enjoy looking through my project and seeing what kinds of ideas I have.
+
+Regards,
+
+Mountain Fox
