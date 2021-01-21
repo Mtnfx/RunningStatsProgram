@@ -1,5 +1,5 @@
 # RunningStatsProgram
-This is just a for fun project.
+This is just a recreational project.
 If you happened to stumble across this, welcome!
 
 This program seeks to be able to analyze the previous races of runners and somewhat accurately predict their finishing times in future races.
