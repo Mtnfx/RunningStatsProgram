@@ -1,0 +1,5 @@
+library(tidyverse)
+setwd("C:/Users/alecl/Documents")
+runners = read.csv("test_output.csv", header = FALSE)
+runners %>% arrange(V3)
+write.table(runners, 'clean_data.csv', sep = ',', dec = '.', row.names = FALSE, col.names = FALSE)
