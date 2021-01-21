@@ -1,2 +1,2 @@
-cd Documents :: Replace Documents with whatever computer address the files are in.
+cd Documents :: Replace Documents with whatever directory you placed the project files in
 running_stats_skeleton.py
