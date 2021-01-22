@@ -7,4 +7,4 @@ Based on the analysis I have done so far, I have concluded the following:
   * A quadratic curve of best fit is ideal for extrapolating from already existing data, eg. actually predicting future times
   * A cubic curve most accurately interpolates data, eg. performing "what if" type scenarios in past races they may not have run in due to injury or other factors
   
-My analysis is nowhere close to complete at the moment as right now the two finished data sets I have wildly different accuracies. Until I get more data sets completed, I cannot tell for certain if my analysis will be accurate enough to use.
+My analysis is nowhere close to complete at the moment as right now the two finished data sets have wildly different accuracies. Until I get more data sets completed, I cannot tell for certain if my analysis will be accurate enough to use.
