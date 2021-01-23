@@ -1,4 +1,7 @@
 # Race Analysis Data
+
+`THIS INFORMATION AND THE ACCOMPANYING SPREADSHEET ARE CURRENTLY OUT OF DATE AS I CHANGE MY DATA ANALYSIS METHODS`
+
 This Journal is all details and conclusions specifically regarding the analysis in the file RaceAnalysisData.xlsx. To get the most out of reading this, you'll need to have seen my analysis in this file.
 
 ### Conclusions
